@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+
+header, main, footer {
+  width: 80%;
+  margin: 20px auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  width: 80%;
+  background-color: #fff;
+  color: #fff;
+  padding: 15px;
+  text-align: justify;
+  z-index: 1000;
+  transition: top 0.5s; 
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+
+footer {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #9FA7B5;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #9FA7B5;
+  flex: 2; 
+  padding: 10px;
+}
+
+article {
+  margin-bottom: 15px;
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+#aside img {
+  width: 100%; 
+  max-width: 200px; 
+  height: auto; 
+  aspect-ratio: 1 / 1; 
+  border-radius: 50%;
+  margin-bottom: 10px; 
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(153, 153, 153, 0.6); 
+
+}
+
+#aside p {
+  font-size: 14px;
+  color: #9FA7B5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#title {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0; 
+  flex: 1;
+  color: #30CED0;
+  
+  
+
+}
+
+#title2 {
+  align-self: center;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  
+}
+
+nav li {
+  
+  flex: 2;
+}
+
+nav a {
+  text-decoration: none;
+  color: #B2B2B2;
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav a:hover {
+  color: #091E42;
+}
+
+.titleartikel {
+  color: #091E42;
+}
+
+.material-symbols--menu {
+  display: none;
+}
+
+.menu {
+  text-align: end;
+}
+
+.menu2 {
+  
+  display: none;
+}
+
+.submenu { 
+  display: none;
+}
+@media screen and (max-width: 600px) {
+.menu {
+  display: none;
+}
+.menu2 {
+  display: block;
+  text-align: end;
+  text-decoration: none;
+  color: #B2B2B2;
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.submenu {
+  text-align: end;
+}
+
+main {
+  display: block;
+}
+
+}

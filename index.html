@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Website</title>
+</head>
+<body >
+    <header>
+        
+        <nav>
+          <ul>
+            <li id="title2"><a href="#"><h1 id="title">My Website</h1></a></li>
+            <li class="menu"><a href="#">Beranda</a></li>
+            <li class="menu"><a href="#content">Artikel</a></li>
+            <li class="menu"><a href="#aside">Profile</a></li>
+            <span class="menu2" onclick="toggleSubMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <ul class="submenu">
+              <li><a href="#" onclick="hideSubMenu()">Beranda</a></li>
+              <li><a href="#content" onclick="hideSubMenu()">Artikel</a></li>
+              <li><a href="#aside" onclick="hideSubMenu()">Profile</a></li>
+            </ul>
+          </ul>
+        </nav>
+      </header>
+      
+
+  <main>
+    <div id="content">
+      <article>
+        <h2 class="titleartikel">Jejak Kuliah di Malang: Pembentukan Identitas Teknologi</h2>
+        <p>Dalam enam semester studi S1 Teknik Informatika di Universitas Negeri Malang, saya, Muchamad Andis Setiawan, menelusuri perjalanan yang tak hanya mencatat angka semester, melainkan merajut jejak pembelajaran yang membentuk identitas saya. Di kota Malang, Jawa Timur, saya menemukan semangat dan warna unik yang memberikan kehidupan pada perjalanan akademis saya.</p>
+      </article>
+
+      <article>
+        <h2 class="titleartikel">Menuju Era Digital: Studi Independen di Cloud Computing</h2>
+        <p>Semester keenam saya menjadi panggung bagi studi independen melalui Program MBKM di Bangkit Academy dengan fokus pada Cloud Computing Learning Path. Dalam paragraf ini, saya membawa pembaca menelusuri dunia teknologi yang terus berkembang, memperkaya diri di tengah komunitas mahasiswa Malang yang penuh semangat, dan menunjukkan komitmen untuk berdaya saing di era digital.</p>
+      </article>
+    </div>
+
+    <div id="aside">
+      <aside>
+        <img src="img/profile.jpg" alt="profile">
+        <p id="paside">Muchamad Andis Setiawan (Mahasiswa)</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Muchamad Andis Setiawan</p>
+  </footer>
+  
+<script src="https://kit.fontawesome.com/fa49d1473b.js" crossorigin="anonymous"></script>
+</body>
+</html>
